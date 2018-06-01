@@ -1,0 +1,34 @@
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\LOL.AcceptQueue.exe.config
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\LOL.AcceptQueue.exe
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\LOL.AcceptQueue.pdb
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\IronOcr.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\log4net.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\IronOcr.xml
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\log4net.xml
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Release\LOL.AcceptQueue.Properties.Resources.resources
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Release\LOL.AcceptQueue.csproj.GenerateResource.Cache
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Release\LOL.AcceptQueue.exe
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Release\LOL.AcceptQueue.pdb
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Release\LOL.AcceptQueue.csprojResolveAssemblyReference.cache
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\x64\liblept172.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\x64\libtesseract304.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\x86\liblept172.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\x86\libtesseract304.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\Tesseract.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Release\Tesseract.xml
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\LOL.AcceptQueue.exe.config
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Release\LOL.AcceptQueue.exe
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Release\LOL.AcceptQueue.pdb
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\x64\liblept172.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\x64\libtesseract304.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\x86\liblept172.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\x86\libtesseract304.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\LOL.AcceptQueue.exe
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\LOL.AcceptQueue.pdb
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\log4net.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\Tesseract.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\log4net.xml
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Release\Tesseract.xml
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Release\LOL.AcceptQueue.csprojResolveAssemblyReference.cache
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Release\LOL.AcceptQueue.Properties.Resources.resources
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Release\LOL.AcceptQueue.csproj.GenerateResource.Cache

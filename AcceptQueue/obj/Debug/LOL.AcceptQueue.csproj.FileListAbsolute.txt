@@ -1,0 +1,46 @@
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe.config
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.csprojResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.pdb
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\IronOcr.dll
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\log4net.dll
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\IronOcr.xml
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\bin\Debug\log4net.xml
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.exe
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.pdb
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.Properties.Resources.resources
+C:\Users\Alex\Desktop\Coding\C++ Practice\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.csproj.GenerateResource.Cache
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe.config
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.exe
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.pdb
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.csprojResolveAssemblyReference.cache
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.csproj.GenerateResource.Cache
+C:\GitRepos\AcceptQueue\AcceptQueue\obj\Debug\LOL.AcceptQueue.Properties.Resources.resources
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\LOL.AcceptQueue.pdb
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\IronOcr.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\log4net.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\IronOcr.xml
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\log4net.xml
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\x64\liblept172.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\x64\libtesseract304.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\x86\liblept172.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\x86\libtesseract304.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\Tesseract.dll
+C:\GitRepos\AcceptQueue\AcceptQueue\bin\Debug\Tesseract.xml
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe.config
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Debug\LOL.AcceptQueue.exe
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Debug\LOL.AcceptQueue.pdb
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\LOL.AcceptQueue.exe
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\LOL.AcceptQueue.pdb
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\log4net.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\Tesseract.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\log4net.xml
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\Tesseract.xml
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Debug\LOL.AcceptQueue.csprojResolveAssemblyReference.cache
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Debug\LOL.AcceptQueue.Properties.Resources.resources
+C:\GitRepos\League Of Legends\AcceptQueue\obj\Debug\LOL.AcceptQueue.csproj.GenerateResource.Cache
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\x64\liblept172.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\x64\libtesseract304.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\x86\liblept172.dll
+C:\GitRepos\League Of Legends\AcceptQueue\bin\Debug\x86\libtesseract304.dll

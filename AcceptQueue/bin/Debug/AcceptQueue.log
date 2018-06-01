@@ -1,0 +1,545 @@
+2018-06-01 03:45:16,293 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:45:27,630 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:46:37,114 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:46:41,458 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:46:44,873 [9] ERROR LOL.AcceptQueue.MonitorService Dispose
+System.InvalidOperationException: Cannot process request because the process has exited.
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at LOL.AcceptQueue.MonitorService.Dispose() in C:\GitRepos\League Of Legends\AcceptQueue\MonitorService.cs:line 78
+2018-06-01 03:47:59,978 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:48:00,041 [8] ERROR LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-01 03:48:03,277 [8] ERROR LOL.AcceptQueue.MonitorService Dispose
+System.InvalidOperationException: Cannot process request because the process has exited.
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at LOL.AcceptQueue.MonitorService.Dispose() in C:\GitRepos\League Of Legends\AcceptQueue\MonitorService.cs:line 78
+2018-06-01 03:48:20,531 [7] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 3605284
+2018-06-01 03:50:13,414 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5047730
+2018-06-01 03:50:18,659 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5047730
+2018-06-01 04:00:13,254 [8] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions unable to find any league of legend application running.
+2018-06-01 04:00:45,649 [8] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions unable to find any league of legend application running.
+2018-06-01 04:01:45,702 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:06:21,807 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5506122
+2018-06-01 04:06:21,842 [8] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:22,929 [8] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:23,945 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5506122
+2018-06-01 04:06:23,961 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:24,240 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:06:25,255 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5506122
+2018-06-01 04:06:25,272 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:25,531 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:06:26,553 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5506122
+2018-06-01 04:06:26,572 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:26,830 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:27,843 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5506122
+2018-06-01 04:06:27,863 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:28,127 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:39,247 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:39,300 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:40,352 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:41,371 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:41,382 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:41,652 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:42,666 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:42,667 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:42,998 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:44,024 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:44,030 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:44,305 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:45,315 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:45,317 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:45,623 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:46,627 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:46,634 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:46,953 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:47,974 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:47,976 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:48,291 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:49,296 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:49,311 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:49,580 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:50,587 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:50,590 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:50,841 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:51,852 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:51,860 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:52,096 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:53,101 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:53,110 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:53,379 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:54,396 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:54,403 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:54,657 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:55,673 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:55,681 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:55,930 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:56,937 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:56,939 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:57,191 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:58,204 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:58,206 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:58,487 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:06:59,496 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:06:59,507 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:06:59,764 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:00,775 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:00,777 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:01,029 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:02,040 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:02,047 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:02,297 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:03,305 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:03,307 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:03,572 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:04,584 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:04,589 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:04,848 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:05,861 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:05,869 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:06,119 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:07,124 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5113558
+2018-06-01 04:07:07,125 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:33,291 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:33,358 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:35,740 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:36,752 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:36,767 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:37,052 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:38,059 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:38,075 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:38,401 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:39,416 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:39,431 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:39,723 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:40,728 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:40,745 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:41,063 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:42,070 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:42,096 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:42,386 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:43,398 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:43,423 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:43,733 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:44,736 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:44,753 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:45,064 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:07:46,078 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:46,097 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:46,468 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:07:47,482 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:47,499 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:07:57,927 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:07:57,956 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:08:00,458 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = Km l:
+
+0 Limited- Time!
+
+CURSE OF THE I
+
+; K? 0 U
+' ' new Butchel’s Budge mm me Eluodhalbm le
+
+
+2018-06-01 04:08:01,477 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 7997990
+2018-06-01 04:08:01,494 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:08:04,280 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = war I
+
+O Umimd—Tml
+
+CURSE OF THE I
+
+  
+
+w
+
+mum-In Duldlel’s Budge mm m BloodhalborRIm
+
+
+2018-06-01 04:08:05,299 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions unable to find any league of legend application running.
+2018-06-01 04:08:05,299 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:09:10,134 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:11:27,423 [9] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is running.
+2018-06-01 04:11:27,438 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 6097360
+2018-06-01 04:11:27,489 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:11:28,383 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:11:29,396 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 6097360
+2018-06-01 04:11:29,413 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:11:29,688 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:11:30,704 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 6097360
+2018-06-01 04:11:30,720 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:11:31,007 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:11:32,017 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 6097360
+2018-06-01 04:11:32,042 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:11:32,328 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:11:33,341 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 6097360
+2018-06-01 04:11:33,358 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:11:33,646 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:11:34,649 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:11:52,180 [9] ERROR LOL.AcceptQueue.MonitorService Dispose
+System.InvalidOperationException: Cannot process request because the process (5056) has exited.
+   at System.Diagnostics.ProcessManager.OpenProcess(Int32 processId, Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.GetProcessHandle(Int32 access, Boolean throwIfExited)
+   at System.Diagnostics.Process.Kill()
+   at LOL.AcceptQueue.MonitorService.Dispose() in C:\GitRepos\League Of Legends\AcceptQueue\MonitorService.cs:line 68
+2018-06-01 04:12:35,091 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:12:35,104 [9] DEBUG LOL.AcceptQueue.MonitorService League of legends is not running.
+2018-06-01 04:12:51,281 [8] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions is disabled.
+2018-06-01 04:12:51,293 [8] DEBUG LOL.AcceptQueue.MonitorService League of legends is not running.
+2018-06-01 04:15:28,616 [9] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 04:15:28,630 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5047386
+2018-06-01 04:15:28,658 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:29,564 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:30,573 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5047386
+2018-06-01 04:15:30,591 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:30,863 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:15:31,883 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 5047386
+2018-06-01 04:15:31,901 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:32,233 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:39,686 [10] DEBUG LOL.AcceptQueue.MonitorService League of legends is not running.
+2018-06-01 04:15:49,708 [6] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 04:15:49,712 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:49,729 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:50,323 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:51,335 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:51,353 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:51,624 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:52,633 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:52,656 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:52,920 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:53,924 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:53,941 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:54,243 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:55,264 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:55,284 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:55,591 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:56,611 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:56,632 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:56,984 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 04:15:57,996 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:58,013 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:58,339 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = i KY
+
+
+2018-06-01 04:15:59,353 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:15:59,371 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:15:59,707 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:16:00,712 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:16:00,727 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:16:01,064 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 04:16:02,071 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 4458862
+2018-06-01 04:16:02,091 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 04:16:02,525 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-01 14:05:41,185 [9] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 14:05:41,204 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:05:41,228 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:05:43,225 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:05:44,235 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:05:44,250 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:05:45,559 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:05:46,574 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:05:46,588 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:05:47,903 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:05:55,558 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 14:05:55,572 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:05:55,598 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:05:57,418 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:05:58,430 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:05:58,447 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:05:59,740 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:06:03,827 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:06:03,851 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:06:05,139 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:06:15,136 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions the game is currently being played.
+2018-06-01 14:06:25,139 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions the game is currently being played.
+2018-06-01 14:06:35,151 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions the game is currently being played.
+2018-06-01 14:06:45,158 [15] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions the game is currently being played.
+2018-06-01 14:12:53,360 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 14:12:53,382 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:12:53,411 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:12:55,320 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:12:56,327 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:12:56,341 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:12:57,656 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = ¢am M
+
+M 826 5,9915
+
+6&3! I
+
+I I 9 14 6 9,3325
+
+E3$M83
+
+c7 / :25 x?
+Summnnzr's m
+
+7215 ~ usm/zms
+
+or / 149 xP
+Summnnzr's um
+
+2s :1 - asm/zms
+
+Aolms x?
+
+mummy-Q um
+
+
+2018-06-01 14:12:59,087 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 131636
+2018-06-01 14:12:59,102 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:38:34,743 [9] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-01 14:38:34,783 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 197528
+2018-06-01 14:38:34,803 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:38:35,808 [9] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 14:38:37,828 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 197528
+2018-06-01 14:38:37,846 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:38:38,204 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-01 14:40:03,721 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 263104
+2018-06-01 14:40:03,745 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-01 14:40:04,024 [14] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
