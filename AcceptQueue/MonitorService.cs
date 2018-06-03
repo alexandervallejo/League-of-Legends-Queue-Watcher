@@ -232,6 +232,13 @@ namespace LOL.AcceptQueue
                 {
                     log.Error("CroppedImage attempting to save and open an image.");
                     bitmap.Save("SavedImage.bmp", ImageFormat.Jpeg);
+
+                    if(_Paint != null)
+                    {
+                        _Paint.CloseMainWindow();
+                        _Paint?.Dispose();
+                        _Paint = null;
+                    }
                     _Paint = new Process();
                     var paintPath = @"C:\Windows\system32\mspaint.exe";
                     _Paint.StartInfo.FileName = paintPath;
