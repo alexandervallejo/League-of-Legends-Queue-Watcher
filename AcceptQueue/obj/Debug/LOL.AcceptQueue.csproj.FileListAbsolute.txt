@@ -59,3 +59,4 @@ C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\bin\De
 C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\bin\Debug\Tesseract.xml
 C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\obj\Debug\LOL.AcceptQueue.Properties.Resources.resources
 C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\obj\Debug\LOL.AcceptQueue.csproj.GenerateResource.Cache
+C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\obj\Debug\LOL.AcceptQueue.PropertiesScreen.resources

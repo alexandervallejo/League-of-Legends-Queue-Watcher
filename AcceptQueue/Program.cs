@@ -27,6 +27,7 @@ namespace LOL.AcceptQueue
             if (mutex.WaitOne(TimeSpan.Zero, true))
             {
                 XmlConfigurator.Configure();
+                Application.ThreadException += Application_ThreadException;
                 Application.EnableVisualStyles();
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new MonitorApplicationContext());
@@ -36,6 +37,11 @@ namespace LOL.AcceptQueue
             //{
             //    MessageBox.Show(ServiceName + "is already running.");
             //}
+        }
+
+        private static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
+        {
+            log.Error("Application_ThreadException", e.Exception);
         }
     }
 }

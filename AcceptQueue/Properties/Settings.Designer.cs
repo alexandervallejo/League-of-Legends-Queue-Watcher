@@ -23,57 +23,75 @@ namespace LOL.AcceptQueue.Properties {
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.5")]
         public double AcceptLocationX {
             get {
                 return ((double)(this["AcceptLocationX"]));
             }
+            set {
+                this["AcceptLocationX"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("0.7")]
         public double AcceptLocationY {
             get {
                 return ((double)(this["AcceptLocationY"]));
             }
+            set {
+                this["AcceptLocationY"] = value;
+            }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool ShowWhatAppSees {
+        public bool ShowApplicationVision {
             get {
-                return ((bool)(this["ShowWhatAppSees"]));
+                return ((bool)(this["ShowApplicationVision"]));
+            }
+            set {
+                this["ShowApplicationVision"] = value;
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("True")]
-        public bool AllowMinimizingOfLeague {
+        public bool AllowLaunchPageMinimizing {
             get {
-                return ((bool)(this["AllowMinimizingOfLeague"]));
+                return ((bool)(this["AllowLaunchPageMinimizing"]));
+            }
+            set {
+                this["AllowLaunchPageMinimizing"] = value;
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("10")]
-        public int IntervalToCheckOutOfGameSec {
+        [global::System.Configuration.DefaultSettingValueAttribute("60")]
+        public int CheckForLaunchPageIntervalSec {
             get {
-                return ((int)(this["IntervalToCheckOutOfGameSec"]));
+                return ((int)(this["CheckForLaunchPageIntervalSec"]));
+            }
+            set {
+                this["CheckForLaunchPageIntervalSec"] = value;
             }
         }
         
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("1")]
-        public int IntervalToCheckForQueueSec {
+        [global::System.Configuration.DefaultSettingValueAttribute("2")]
+        public int CheckForQueueIntervalSec {
             get {
-                return ((int)(this["IntervalToCheckForQueueSec"]));
+                return ((int)(this["CheckForQueueIntervalSec"]));
+            }
+            set {
+                this["CheckForQueueIntervalSec"] = value;
             }
         }
     }

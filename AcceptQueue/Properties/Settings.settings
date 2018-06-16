@@ -2,23 +2,23 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LOL.AcceptQueue.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="AcceptLocationX" Type="System.Double" Scope="Application">
+    <Setting Name="AcceptLocationX" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.5</Value>
     </Setting>
-    <Setting Name="AcceptLocationY" Type="System.Double" Scope="Application">
+    <Setting Name="AcceptLocationY" Type="System.Double" Scope="User">
       <Value Profile="(Default)">0.7</Value>
     </Setting>
-    <Setting Name="ShowWhatAppSees" Type="System.Boolean" Scope="Application">
+    <Setting Name="ShowApplicationVision" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
-    <Setting Name="AllowMinimizingOfLeague" Type="System.Boolean" Scope="Application">
+    <Setting Name="AllowLaunchPageMinimizing" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
-    <Setting Name="IntervalToCheckOutOfGameSec" Type="System.Int32" Scope="Application">
-      <Value Profile="(Default)">10</Value>
+    <Setting Name="CheckForLaunchPageIntervalSec" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">60</Value>
     </Setting>
-    <Setting Name="IntervalToCheckForQueueSec" Type="System.Int32" Scope="Application">
-      <Value Profile="(Default)">1</Value>
+    <Setting Name="CheckForQueueIntervalSec" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
     </Setting>
   </Settings>
 </SettingsFile>

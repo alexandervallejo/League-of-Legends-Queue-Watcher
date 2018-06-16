@@ -15,6 +15,7 @@ namespace LOL.AcceptQueue
         private NotifyIcon _TrayIcon;
         private MonitorService _MonitorService;
         MenuItem _OnOffMenuItem;
+        PropertiesScreen _PropertiesScreen;
         private static readonly ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 
         protected override void Dispose(bool disposing)
@@ -23,8 +24,9 @@ namespace LOL.AcceptQueue
 
             _OnOffMenuItem?.Dispose();
             _TrayIcon?.Dispose();
+            _PropertiesScreen?.Dispose();
 
-            if(_MonitorService != null)
+            if (_MonitorService != null)
             {
                 _MonitorService.MonitorStatusHasChanged -= _MonitorService_MonitorStatusHasChanged;
             }
@@ -45,6 +47,7 @@ namespace LOL.AcceptQueue
                 ContextMenu = new ContextMenu(new MenuItem[]
                                              {
                                                  _OnOffMenuItem,
+                                                 new MenuItem("Properties", Properties),
                                                  new MenuItem("Exit", Exit),
                                              }),
                 Visible = true
@@ -79,6 +82,27 @@ namespace LOL.AcceptQueue
             {
                 _MonitorService.UserEnabledOrDisabled = true;
             }
+        }
+
+        void Properties(object sender, EventArgs e)
+        {
+            if(_PropertiesScreen == null)
+            {
+                _PropertiesScreen = new PropertiesScreen();
+                _PropertiesScreen.InitializeUpdateObject(_MonitorService);
+                _PropertiesScreen.FormClosed += _PropertiesScreen_FormClosed;
+                _PropertiesScreen?.Show();
+            }
+            else
+            {
+                _PropertiesScreen.Show();
+            }
+        }
+
+        private void _PropertiesScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _PropertiesScreen.FormClosed -= _PropertiesScreen_FormClosed;
+            _PropertiesScreen = null;
         }
 
         void Exit(object sender, EventArgs e)

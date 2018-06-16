@@ -22,11 +22,145 @@ namespace LOL.AcceptQueue
         System.Timers.Timer _MonitorTimer;
         Process _Paint, _LoLProcess;
         bool _LeagueWasRunning = false;
-
-
         public event EventHandler<bool> MonitorStatusHasChanged;
 
         #region Properties
+        public bool ShowApplicationVision
+        {
+            get
+            {
+                return Settings.Default.ShowApplicationVision;
+            }
+            set
+            {
+                Settings.Default.ShowApplicationVision = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public bool AllowLaunchPageMinimizing
+        {
+            get
+            {
+                return Settings.Default.AllowLaunchPageMinimizing;
+            }
+            set
+            {
+                Settings.Default.AllowLaunchPageMinimizing = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public double AcceptLocationX
+        {
+            get
+            {
+                return Settings.Default.AcceptLocationX;
+            }
+            set
+            {
+                Settings.Default.AcceptLocationX = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public double AcceptLocationY
+        {
+            get
+            {
+                return Settings.Default.AcceptLocationY;
+            }
+            set
+            {
+                Settings.Default.AcceptLocationY = value;
+                Settings.Default.Save();
+            }
+        }
+        
+        public int CheckForLaunchPageIntervalSec
+        {
+            get
+            {
+                return Settings.Default.CheckForLaunchPageIntervalSec;
+            }
+            set
+            {
+                try
+                {
+                    if (value == 0)
+                    {
+                        value = 1;
+                    }
+                    Settings.Default.CheckForLaunchPageIntervalSec = value;
+                    Settings.Default.Save();
+                    if (_MonitorTimer != null)
+                    {
+                        if (_CurrentlyMonitoring)
+                        {
+                            _MonitorTimer.Interval = Settings.Default.CheckForLaunchPageIntervalSec * 1000;
+                        }
+                        else
+                        {
+                            //NOTE: Do not check as often if the monitoring has been turned off.
+                            _MonitorTimer.Interval = Settings.Default.CheckForLaunchPageIntervalSec * 1000;
+                        }
+
+                        if (_MonitorTimer.Enabled == false)
+                        {
+                            _MonitorTimer.Start();
+                        }
+                    }
+                }
+                catch(Exception ex)
+                {
+                    log.Error("CheckForLaunchPageIntervalSec Setter", ex);
+                }
+            }
+        }
+        
+        public int CheckForQueueIntervalSec
+        {
+            get
+            {
+                return Settings.Default.CheckForQueueIntervalSec;
+            }
+            set
+            {
+                try
+                {
+                    if (value == 0)
+                    {
+                        value = 1;
+                    }
+
+                    Settings.Default.CheckForQueueIntervalSec = value;
+                    Settings.Default.Save();
+
+                    if (_MonitorTimer != null)
+                    {
+                        if (_CurrentlyMonitoring)
+                        {
+                            _MonitorTimer.Interval = Settings.Default.CheckForQueueIntervalSec * 1000;
+                        }
+                        else
+                        {
+                            //NOTE: Do not check as often if the monitoring has been turned off.
+                            _MonitorTimer.Interval = Settings.Default.CheckForQueueIntervalSec * 1000;
+                        }
+
+                        if (_MonitorTimer.Enabled == false)
+                        {
+                            _MonitorTimer.Start();
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    log.Error("CheckForQueueIntervalSec Setter", ex);
+                }            
+            }
+        }
+        
         public bool UserEnabledOrDisabled
         {
             get { return _UserEnabledOrDisabled; }
@@ -49,12 +183,12 @@ namespace LOL.AcceptQueue
                     _CurrentlyMonitoring = value;
                     if (_CurrentlyMonitoring)
                     {
-                        _MonitorTimer.Interval = Settings.Default.IntervalToCheckForQueueSec * 1000;
+                        _MonitorTimer.Interval = CheckForQueueIntervalSec * 1000;
                     }
                     else
                     {
                         //NOTE: Do not check as often if the monitoring has been turned off.
-                        _MonitorTimer.Interval = Settings.Default.IntervalToCheckOutOfGameSec * 1000;
+                        _MonitorTimer.Interval = CheckForLaunchPageIntervalSec * 1000;
                     }
                     OnMonitorStatusHasChanged(_CurrentlyMonitoring);
                 }
@@ -65,7 +199,6 @@ namespace LOL.AcceptQueue
         #region Constructor/Initialization
         public MonitorService()
         {
-
         }
 
         public MonitorService(string[] args)
@@ -94,7 +227,7 @@ namespace LOL.AcceptQueue
         public void Initialize()
         {
             this._MonitorTimer = new System.Timers.Timer();
-            this._MonitorTimer.Interval = Settings.Default.IntervalToCheckForQueueSec * 1000;
+            this._MonitorTimer.Interval = CheckForQueueIntervalSec * 1000;
             this._MonitorTimer.Elapsed += _MonitorTimer_Elapsed;
             this._MonitorTimer.AutoReset = false;
             this.CurrentlyMonitoring = true;
@@ -122,7 +255,7 @@ namespace LOL.AcceptQueue
                          processCount == 0 ||
                         currentlyPlayingGame)
                 {
-                    if(processCount == 0)
+                    if (processCount == 0)
                     {
                         _LeagueWasRunning = false;
                     }
@@ -154,7 +287,7 @@ namespace LOL.AcceptQueue
                 }
                 IntPtr ptr = _LoLProcess.MainWindowHandle;
                 //NOTE: The print window method does not work correctly when the applicaiton is minimized.
-                if (Settings.Default.AllowMinimizingOfLeague == false)
+                if (AllowLaunchPageMinimizing == false)
                 {
                     WindowFunctions.ShowWindow(_LoLProcess.MainWindowHandle, WindowFunctions.SW_SHOWNORMAL);
                 }
@@ -171,8 +304,8 @@ namespace LOL.AcceptQueue
 
                     WindowFunctions.RECT LeagueRect;
                     WindowFunctions.GetWindowRect(ptr, out LeagueRect);
-                    var right = (int)(Properties.Settings.Default.AcceptLocationX * (double)(LeagueRect.Left + LeagueRect.Right));
-                    var bottom = (int)(Properties.Settings.Default.AcceptLocationY * (double)(LeagueRect.Top + LeagueRect.Bottom));
+                    var right = (int)(AcceptLocationX * (double)(LeagueRect.Left + LeagueRect.Right));
+                    var bottom = (int)(AcceptLocationY * (double)(LeagueRect.Top + LeagueRect.Bottom));
                     log.Debug($"LeftMouseClick center = {bottom} bottom = {right}");
                     WindowFunctions.LeftMouseClick(right, bottom);
                 }
@@ -225,18 +358,16 @@ namespace LOL.AcceptQueue
                 graphics.Dispose();
             }
 
-            if (Properties.Settings.Default.ShowWhatAppSees &&
-                _Paint == null)
+            if (ShowApplicationVision)
             {
                 try
                 {
-                    log.Error("CroppedImage attempting to save and open an image.");
+                    log.Debug("CroppedImage attempting to save and open an image.");
                     bitmap.Save("SavedImage.bmp", ImageFormat.Jpeg);
 
-                    if(_Paint != null)
+                    if (_Paint != null)
                     {
-                        _Paint.CloseMainWindow();
-                        _Paint?.Dispose();
+                        _Paint.Kill();
                         _Paint = null;
                     }
                     _Paint = new Process();
