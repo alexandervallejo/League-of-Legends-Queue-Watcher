@@ -94,5 +94,53 @@ namespace LOL.AcceptQueue.Properties {
                 this["CheckForQueueIntervalSec"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.3")]
+        public double ImageCropWidth {
+            get {
+                return ((double)(this["ImageCropWidth"]));
+            }
+            set {
+                this["ImageCropWidth"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.3")]
+        public double ImageCropHeight {
+            get {
+                return ((double)(this["ImageCropHeight"]));
+            }
+            set {
+                this["ImageCropHeight"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.25")]
+        public double ImageCropStartLeft {
+            get {
+                return ((double)(this["ImageCropStartLeft"]));
+            }
+            set {
+                this["ImageCropStartLeft"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0.5")]
+        public double ImageCropStartTop {
+            get {
+                return ((double)(this["ImageCropStartTop"]));
+            }
+            set {
+                this["ImageCropStartTop"] = value;
+            }
+        }
     }
 }

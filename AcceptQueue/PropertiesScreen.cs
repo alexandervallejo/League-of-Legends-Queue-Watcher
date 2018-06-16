@@ -42,6 +42,25 @@ namespace LOL.AcceptQueue
             textBoxAcceptionLocationY.KeyPress += ForceInt;
             textBoxAcceptionLocationY.TextChanged += Format0To100;
             textBoxAcceptionLocationY.TextChanged += TextBoxAcceptionLocationY_TextChanged;
+
+            textBoxImageCropWidth.KeyPress += ForceInt;
+            textBoxImageCropWidth.TextChanged += Format0To100;
+            textBoxImageCropWidth.TextChanged += TextBoxImageCropWidth_TextChanged;
+
+
+            textBoxImageCropHeight.KeyPress += ForceInt;
+            textBoxImageCropHeight.TextChanged += Format0To100;
+            textBoxImageCropHeight.TextChanged += TextBoxImageCropHeight_TextChanged;
+
+
+            textBoxCropStartTop.KeyPress += ForceInt;
+            textBoxCropStartTop.TextChanged += Format0To100;
+            textBoxCropStartTop.TextChanged += TextBoxCropStartTop_TextChanged;
+
+
+            textBoxCropStartLeft.KeyPress += ForceInt;
+            textBoxCropStartLeft.TextChanged += Format0To100;
+            textBoxCropStartLeft.TextChanged += TextBoxCropStartLeft_TextChanged;
         }
 
         private void ComboBoxAllowMinimize_SelectedIndexChanged(object sender, EventArgs e)
@@ -62,6 +81,29 @@ namespace LOL.AcceptQueue
             {
                 _MonitorService.ShowApplicationVision = applicationVision;
             }
+        }
+
+
+
+
+        private void TextBoxCropStartLeft_TextChanged(object sender, EventArgs e)
+        {
+            _MonitorService.ImageCropStartLeft = ((double)IntFromTextBox(sender as TextBox) / 100);
+        }
+
+        private void TextBoxCropStartTop_TextChanged(object sender, EventArgs e)
+        {
+            _MonitorService.ImageCropStartTop = ((double)IntFromTextBox(sender as TextBox) / 100);
+        }
+
+        private void TextBoxImageCropHeight_TextChanged(object sender, EventArgs e)
+        {
+            _MonitorService.ImageCropHeight = ((double)IntFromTextBox(sender as TextBox) / 100);
+        }
+
+        private void TextBoxImageCropWidth_TextChanged(object sender, EventArgs e)
+        {
+            _MonitorService.ImageCropWidth = ((double)IntFromTextBox(sender as TextBox) / 100);
         }
 
         private void TextBoxAcceptionLocationX_TextChanged(object sender, EventArgs e)
@@ -93,6 +135,10 @@ namespace LOL.AcceptQueue
                 textBoxQueuePopInterval.Text = _MonitorService.CheckForQueueIntervalSec.ToString();
                 textBoxAcceptionLocationX.Text = (_MonitorService.AcceptLocationX * 100).ToString("#.##");
                 textBoxAcceptionLocationY.Text = (_MonitorService.AcceptLocationY * 100).ToString("#.##");
+                textBoxImageCropHeight.Text = (_MonitorService.ImageCropHeight * 100).ToString("#.##");
+                textBoxImageCropWidth.Text = (_MonitorService.ImageCropWidth * 100).ToString("#.##");
+                textBoxCropStartTop.Text = (_MonitorService.ImageCropStartTop * 100).ToString("#.##");
+                textBoxCropStartLeft.Text = (_MonitorService.ImageCropStartLeft * 100).ToString("#.##");
                 comboBoxAllowMinimize.SelectedItem = _MonitorService.AllowLaunchPageMinimizing ? "True" : "False";
                 comboBoxShowVision.SelectedItem = _MonitorService.ShowApplicationVision ? "True" : "False";
 

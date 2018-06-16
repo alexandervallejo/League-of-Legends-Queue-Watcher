@@ -4457,3 +4457,301 @@ System.ArgumentException: '-1000' is not a valid value for 'Interval'. 'Interval
 2018-06-15 00:08:29,373 [18] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = w
 
 
+2018-06-16 00:35:35,109 [13] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 00:35:35,121 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 132782
+2018-06-16 00:35:38,305 [13] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:35:38,386 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:35:39,795 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 00:35:44,808 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:35:44,827 [12] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:35:44,891 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:35:45,337 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 00:35:50,351 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:35:50,376 [12] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:35:50,501 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:35:51,068 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 00:35:56,071 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:35:56,097 [13] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:35:56,155 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:35:56,855 [13] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+ 
+
+ 
+
+vn.u,nansu.un1uz
+
+ 
+
+ 
+
+
+2018-06-16 00:36:01,861 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:01,901 [12] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:36:02,008 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:36:02,870 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+ 
+
+ 
+
+vn.u,nansu.un1uz
+
+ 
+
+ 
+
+
+2018-06-16 00:36:07,882 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:07,924 [12] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 00:36:07,975 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 00:36:08,687 [12] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+ 
+
+ 
+
+vn.u,nansu.un1uz
+
+ 
+
+ 
+
+
+2018-06-16 00:36:13,699 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:13,765 [12] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 374
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 363
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__44.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 320
+2018-06-16 00:36:18,797 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:18,819 [13] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 374
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 363
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__44.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 320
+2018-06-16 00:36:23,826 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:23,847 [13] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 374
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 363
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__44.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 320
+2018-06-16 00:36:28,851 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 00:36:28,873 [12] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 374
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 363
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__44.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 320
+2018-06-16 01:10:03,981 [8] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:10:04,004 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:10:04,070 [8] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:10:09,106 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:10:09,140 [14] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:10:14,147 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:10:14,173 [16] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:10:20,997 [17] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:10:21,020 [17] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:12:17,726 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:12:17,740 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:12:17,783 [10] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:12:22,750 [8] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:12:22,773 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:12:22,912 [8] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:12:27,943 [12] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:12:27,971 [12] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:12:32,990 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:12:33,033 [13] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:12:41,369 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:12:41,402 [16] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:15:01,126 [8] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:15:01,144 [8] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:15:01,189 [8] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:15:17,427 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:15:17,457 [15] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:15:22,471 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:15:22,493 [15] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:15:27,509 [13] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:15:27,541 [13] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:15:49,603 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:15:49,620 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:16:20,557 [9] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:16:20,572 [9] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:16:25,486 [9] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:16:30,500 [14] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:16:32,640 [14] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:16:37,648 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:16:43,356 [15] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:16:48,364 [15] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:16:51,381 [15] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:17:11,426 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:17:11,441 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:11,493 [10] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:17:18,048 [17] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:18,071 [17] ERROR LOL.AcceptQueue.MonitorService MontiorFunctions
+System.ArgumentException: Parameter is not valid.
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height, PixelFormat format)
+   at System.Drawing.Bitmap..ctor(Int32 width, Int32 height)
+   at LOL.AcceptQueue.MonitorService.CroppedImage(Image image, Int32 targetWidth, Int32 targetHeight) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 400
+   at LOL.AcceptQueue.MonitorService.PrintWindow(IntPtr hwnd) in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 389
+   at LOL.AcceptQueue.MonitorService.<MontiorFunctions>d__50.MoveNext() in C:\GitRepos\League Of Legends\League-of-Legends-Queue-Watcher\AcceptQueue\MonitorService.cs:line 346
+2018-06-16 01:17:27,157 [10] INFO  LOL.AcceptQueue.MonitorService MontiorFunctions League of legends is now running.
+2018-06-16 01:17:27,185 [10] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:27,206 [10] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:27,235 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:28,200 [10] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 01:17:34,299 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:34,317 [6] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:34,361 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:34,704 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 01:17:39,458 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:39,481 [16] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:39,526 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:39,907 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 01:17:44,914 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:44,941 [16] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:45,026 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:45,449 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 01:17:50,462 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:50,478 [16] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:50,533 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:50,915 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = 
+2018-06-16 01:17:55,928 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:17:55,946 [16] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:17:56,079 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:17:58,311 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = Ten randomrrseleae
+champmrrs assemhlr
+narrow budge m a in
+Cross m the other sl
+destroy everynung m
+path.
+
+
+2018-06-16 01:18:03,328 [16] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:18:03,355 [16] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:18:03,532 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:18:04,038 [16] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image =  
+
+
+2018-06-16 01:18:09,043 [6] INFO  LOL.AcceptQueue.MonitorService PrintWindow IntPtr = 67296
+2018-06-16 01:18:09,060 [6] DEBUG LOL.AcceptQueue.MonitorService CroppedImage attempting to save and open an image.
+2018-06-16 01:18:09,110 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Read Image.
+2018-06-16 01:18:09,607 [6] DEBUG LOL.AcceptQueue.MonitorService MontiorFunctions - Result From Image = оо
+W
+
+

@@ -51,6 +51,58 @@ namespace LOL.AcceptQueue
             }
         }
 
+        public double ImageCropStartLeft
+        {
+            get
+            {
+                return Settings.Default.ImageCropStartLeft;
+            }
+            set
+            {
+                Settings.Default.ImageCropStartLeft = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public double ImageCropStartTop
+        {
+            get
+            {
+                return Settings.Default.ImageCropStartTop;
+            }
+            set
+            {
+                Settings.Default.ImageCropStartTop = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public double ImageCropWidth
+        {
+            get
+            {
+                return Settings.Default.ImageCropWidth;
+            }
+            set
+            {
+                Settings.Default.ImageCropWidth = value;
+                Settings.Default.Save();
+            }
+        }
+
+        public double ImageCropHeight
+        {
+            get
+            {
+                return Settings.Default.ImageCropHeight;
+            }
+            set
+            {
+                Settings.Default.ImageCropHeight = value;
+                Settings.Default.Save();
+            }
+        }
+
         public double AcceptLocationX
         {
             get
@@ -332,16 +384,16 @@ namespace LOL.AcceptQueue
             gfxBmp.ReleaseHdc(hdcBitmap);
             gfxBmp.Dispose();
             //NOTE: To make the image smaller and less OCR needed take a smaller picture.
-            var croppedWidth = (int)(rc.Width * .3);
-            var croppedHeight = (int)(rc.Height * .3);
+            var croppedWidth = (int)(rc.Width * ImageCropWidth);
+            var croppedHeight = (int)(rc.Height * ImageCropHeight);
             return CroppedImage(src, croppedWidth, croppedHeight);
         }
 
         private Bitmap CroppedImage(Image image, int targetWidth, int targetHeight)
         {
             //crop the image from the specified location and size
-            var startX = image.Width / 4;   //Starts from 25% from the left.
-            var startY = image.Height / 2;  //Sarts from 50% from the top.
+            var startX = (int)(image.Width * ImageCropStartLeft);   //Starts from 25% from the left.
+            var startY = (int)(image.Height * ImageCropStartTop);  //Sarts from 50% from the top.
             var sourceRectangle = new Rectangle(startX, startY, targetWidth, targetHeight);
 
             //the future size of the image
