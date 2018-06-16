@@ -1,7 +1,7 @@
 # Auto Accepting Queue's
 
 ## Accepts Queue When AFK (no cheating at all):
-### Built Setup Wizard (Whats in the build currently) 
+### Installer
 ### https://drive.google.com/open?id=1wqvVUGa51G9iMvd2ur8x9JYcA4bNR4VR
 
 # Settings (Located In Properties Screen):
