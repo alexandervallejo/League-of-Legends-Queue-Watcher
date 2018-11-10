@@ -1,6 +1,6 @@
 # Auto Accepting Queue's
 
-## Accepts Queue When AFK (no cheating at all):
+## Accepts Queue When AFK:
 ### Installer
 ### https://drive.google.com/open?id=1wqvVUGa51G9iMvd2ur8x9JYcA4bNR4VR
 
